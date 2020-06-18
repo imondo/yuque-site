@@ -1,0 +1,119 @@
+body {
+	margin: 0 auto;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  line-height: 1.5;
+}
+
+.__dumi-default-layout-hero {
+  display: none;
+}
+.__dumi-default-search {
+  display: none!important;
+}
+.__dumi-default-layout-features, .__dumi-default-layout-features + .__dumi-default-layout-content, .__dumi-default-layout-hero + .__dumi-default-layout-content {
+  max-width: 48rem!important;
+}
+
+.container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 1rem auto auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.list {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.list-item {
+  margin-bottom: 1rem;
+}
+
+.list-item:hover {
+  background-color: #f7fafc;
+}
+
+.list-item-content {
+  padding: 1rem;
+  outline: 0;
+  display: block;
+  cursor: pointer;
+  border-radius: .25rem;
+  color: #553c9a;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-gray-700 {
+  color: #4a5568;
+}
+
+
+.text-gray-800 {
+  color: #2d3748;
+}
+
+.text-gray-900 {
+  color: #1a202c;
+}
+
+.block {
+  display: block;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+@media (min-width: 1024px) {
+  .container {
+      max-width:48rem
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:h-16 {
+      height:4rem
+  }
+
+  .md\:mt-24 {
+      margin-top: 6rem
+  }
+
+  .md\:py-4 {
+      padding-top: 1rem;
+      padding-bottom: 1rem
+  }
+
+  .md\:px-8 {
+      padding-left: 2rem;
+      padding-right: 2rem
+  }
+
+  .md\:text-lg {
+      font-size: 1.125rem
+  }
+
+  .md\:text-2xl {
+      font-size: 1.5rem
+  }
+
+  .md\:text-3xl {
+      font-size: 1.875rem
+  }
+}
