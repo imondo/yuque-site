@@ -19,6 +19,10 @@ export default defineConfig({
       title: 'GitHub',
       path: 'https://github.com/one-pupil',
     },
+    {
+      title: 'About',
+      path: 'https://imondo.cn',
+    },
   ],
   resolve: {
     includes: ['src/docs'],
