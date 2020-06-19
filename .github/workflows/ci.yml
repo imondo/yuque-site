@@ -17,7 +17,11 @@ jobs:
       run: yarn docs:build
 
     - name: Deploy
-      run: yarn docs:deploy      
+      uses: peaceiris/actions-gh-pages@v2.5.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACCESS_TOKEN }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: dist
 
     - name: Deploy file to Server
       uses: wlixcc/SFTP-Deploy-Action@v1.0
