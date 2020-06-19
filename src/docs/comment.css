@@ -1,0 +1,52 @@
+/* gitalk.css | https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css */
+
+.gitalk-comment .gt-container .gt-btn {
+  border: 1px solid #4569d4;
+  background-color: #4569d4;
+}
+
+.gitalk-comment .gt-container .gt-btn-preview {
+  color: #4569d4;
+}
+
+.gitalk-comment .gt-container .gt-header-controls-tip {
+  color: #4569d4;
+}
+
+.gitalk-comment .gt-container .gt-svg svg {
+  fill: #4569d4;
+}
+
+.gitalk-comment .gt-container a:hover {
+  color: #4569d4;
+  border-color: #4569d4;
+}
+
+.gitalk-comment .gt-container .gt-link {
+  border-bottom: 1px dotted #4569d4;
+}
+
+.gitalk-comment .gt-container a {
+  color: #4569d4;
+}
+
+.gitalk-comment .gt-container .gt-popup .gt-action.is--active::before {
+  background: #4569d4;
+}
+
+.gitalk-comment .gt-container .gt-btn-preview:hover {
+  border-color: #4569d4;
+}
+
+.gitalk-comment .gt-container .gt-user .is--poping .gt-ico svg {
+  fill: #4569d4;
+}
+
+.gitalk-comment .gt-container .gt-btn-public:hover {
+  background-color: #4569d4;
+  border-color: #4569d4;
+}
+
+.gitalk-comment .gt-container .gt-comment-username {
+  color: #4569d4;
+}

@@ -8,6 +8,13 @@ export default defineConfig({
   logo: 'https://imondo.cn/files/logo.png',
   outputPath: 'dist',
   mode: 'site',
+  hash: true,
+  metas: [
+    {
+      name: 'name',
+      content: 'no-referrer',
+    },
+  ],
   links: [
     {
       rel: 'stylesheet',
