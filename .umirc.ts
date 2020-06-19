@@ -11,7 +11,7 @@ export default defineConfig({
   hash: true,
   metas: [
     {
-      name: 'name',
+      name: 'referrer',
       content: 'no-referrer',
     },
   ],
