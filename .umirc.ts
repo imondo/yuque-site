@@ -23,12 +23,16 @@ export default defineConfig({
   ],
   navs: [
     {
-      title: 'GitHub',
-      path: 'https://github.com/one-pupil',
+      title: '仿如昨日',
+      path: 'https://www.yuque.com/mondo/docs',
     },
     {
-      title: 'About',
+      title: '关于',
       path: 'https://imondo.cn',
+    },
+    {
+      title: 'GitHub',
+      path: 'https://one-pupil.github.io/yuque-site',
     },
   ],
   resolve: {
