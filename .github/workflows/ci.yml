@@ -10,10 +10,17 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: build
-        BUILD_SCRIPT: yarn install && yarn deploy
+    - name: Install Dependencies
+      run: yarn
+    
+    - name: Build
+      run: yarn docs:build
+
+    - name: deploy file to server
+      uses: wlixcc/SFTP-Deploy-Action@v1.0
+      with:  
+        username: 'root'   #ssh user name
+        server: '${{ secrets.SERVER_IP }}' #引用之前创建好的 secret
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} #引用之前创建好的 secret
+        local_path: './dist/*'  # 打包后文件夹
+        remote_path: '/front/site'
