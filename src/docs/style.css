@@ -20,6 +20,11 @@ body {
   padding: 0;
 }
 
+h2 {
+  font-size: 1.319rem;
+  margin: 0;
+}
+
 .container {
   width: 100%;
   margin: 1rem auto auto;
@@ -30,10 +35,6 @@ body {
 .list {
   margin-left: -1rem;
   margin-right: -1rem;
-}
-
-.list-item {
-  margin-bottom: 1rem;
 }
 
 .list-item:hover {
@@ -52,7 +53,11 @@ body {
 }
 
 .mb-4 {
-  margin-bottom: 1rem;
+  font-size: .75rem;
+}
+
+.leading-relaxed {
+  margin-bottom: 0;
 }
 
 .font-bold {
@@ -110,7 +115,7 @@ body {
   }
 
   .md\:text-2xl {
-      font-size: 1.5rem
+      font-size: 1.319rem
   }
 
   .md\:text-3xl {

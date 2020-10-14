@@ -23,10 +23,6 @@ export default defineConfig({
   ],
   navs: [
     {
-      title: 'GitHub',
-      path: 'https://github.com/one-pupil/yuque-site',
-    },
-    {
       title: '仿如昨日',
       path: 'https://www.yuque.com/mondo/docs',
     },
